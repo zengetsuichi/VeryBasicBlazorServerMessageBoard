@@ -1,0 +1,95 @@
+﻿@page "/AddPost"
+@using Domain.Domain.Model
+@using Domain.Domain.Interface
+@inject IPostHome postHome
+@inject NavigationManager NavMgr
+<h3>AddPost</h3>
+
+
+<AuthorizeView Context="authContext">
+    
+    <NotAuthorized>
+        <h1>Please log in</h1>
+        <br>
+        <button class="btn btn-block btn-primary" 
+            @onclick="@(() => Redirect())" 
+            style="color: rgb(255, 255, 255); background-color: rgb(49, 56, 215);" 
+            type="button">Log in</button>
+        
+        
+    </NotAuthorized>
+    
+    <Authorized>
+
+
+        <EditForm Context="formContext" Model="@newPostItem" OnValidSubmit="@AddNewPost">
+            <DataAnnotationsValidator/>
+            <ValidationSummary/>
+            <div class="container bootstrap snippets bootdey">
+                <div class="lc-block col-md-4 col-md-offset-4 toggled" id="l-login">
+                    <div class="lcb-float"><i class="fa fa-users"></i></div>
+                    <div class="form-group">
+                        <span>
+                            <InputNumber @bind-Value="newPostItem.OwnerId" class="form-control" placeholder="User ID"/>
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <span>
+                            <InputTextArea rows="1" @bind-Value="newPostItem.Title" class="form-control" placeholder="Title"/>
+                        </span>
+                    </div>
+                    <div class="form-group">
+                        <span>
+                            <InputTextArea rows="10" @bind-Value="newPostItem.PostText" class="form-control" placeholder="Your Post Text"/>
+                        </span>
+                    </div>
+                    <p class="actions">
+                        <button class="btn btn-outline-dark" type="submit">Create</button>
+                    </p>
+                </div>
+            </div>
+        </EditForm>
+
+        <label>@errorLabel</label>
+    </Authorized>
+</AuthorizeView>
+
+    
+
+
+
+
+
+@code {
+    private Post newPostItem = new Post();
+    private string errorLabel;
+    
+    private async Task AddNewPost()
+    {
+        errorLabel = "";
+        try
+        {
+            await postHome.AddAsync(newPostItem);
+        }
+        catch (Exception e)
+        {
+            errorLabel = e.Message;
+            return;
+        }
+        
+        NavMgr.NavigateTo("/Posts");
+    }
+
+    private void Redirect()
+    {
+        
+        try
+        { NavMgr.NavigateTo("/Login");
+        }
+        catch (Exception e)
+        {
+            errorLabel = e.Message;
+            
+        }
+    }
+}

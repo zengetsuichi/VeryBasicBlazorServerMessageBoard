@@ -1,0 +1,15 @@
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\bin\Debug\net6.0\FileData.deps.json
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\bin\Debug\net6.0\FileData.dll
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\bin\Debug\net6.0\FileData.pdb
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\bin\Debug\net6.0\Domain.dll
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\bin\Debug\net6.0\Domain.pdb
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\FileData.csproj.AssemblyReference.cache
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\FileData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\FileData.AssemblyInfoInputs.cache
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\FileData.AssemblyInfo.cs
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\FileData.csproj.CoreCompileInputs.cache
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\FileData.csproj.CopyComplete
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\FileData.dll
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\refint\FileData.dll
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\FileData.pdb
+C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\FileData\obj\Debug\net6.0\ref\FileData.dll

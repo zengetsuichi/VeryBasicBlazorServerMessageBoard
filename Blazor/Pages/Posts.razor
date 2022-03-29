@@ -1,0 +1,78 @@
+﻿@page "/Posts"
+@using Domain.Domain.Model
+@using Domain.Domain.Interface
+@inject IPostHome PostHome
+<h3>Posts</h3>
+
+@if (posts == null)
+{
+    <p>
+        <em>Loading...</em>
+    </p>
+}
+else if (!posts.Any())
+{
+    <p>
+        <em>No Posts here. Please add some.</em>
+    </p>
+}
+else
+{
+
+    @foreach (var item in posts)
+    {
+
+        <div class="container">
+        <div class="col-md-12 col-lg-12">
+            <article class="post vt-post">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+                        <div class="post-type post-img">
+                            <a href="#"><img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="img-responsive" alt="image post"></a>
+                        </div>
+                        <div class="author-info author-info-2">
+                            <ul class="list-inline">
+                                <li>
+                                    <div class="info">
+                                        <p>Posted on:</p>
+                                        <strong>@DateTime.Now</strong></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-7 col-md-7 col-lg-8">
+                        <div class="caption">
+                            <h3 class="md-heading"><a href="#">@item.Title</a></h3>
+                            <p>@item.PostText</p>
+                            <a class="btn btn-default" href="#" role="button">Read More</a> </div>
+                    </div>
+                    
+                </div>
+            </article>
+        </div>
+        </div>
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+                @code {
+    private ICollection<Post> posts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        posts = await PostHome.GetAsync();
+    }
+
+}
+    }
+}
+
