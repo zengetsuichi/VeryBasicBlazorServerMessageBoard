@@ -50,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Peter\\RiderProjects\\DefaultBlazorServerApp\\Blazor\\Blazor.csproj",
+      "projectUniqueName": "C:\\Users\\Peter\\RiderProjects\\VeryBasicBlazorServerMessageBoard\\Blazor\\Blazor.csproj",
       "projectName": "Blazor",
-      "projectPath": "C:\\Users\\Peter\\RiderProjects\\DefaultBlazorServerApp\\Blazor\\Blazor.csproj",
+      "projectPath": "C:\\Users\\Peter\\RiderProjects\\VeryBasicBlazorServerMessageBoard\\Blazor\\Blazor.csproj",
       "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Peter\\RiderProjects\\DefaultBlazorServerApp\\Blazor\\obj\\",
+      "outputPath": "C:\\Users\\Peter\\RiderProjects\\VeryBasicBlazorServerMessageBoard\\Blazor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Peter\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -69,8 +69,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Peter\\RiderProjects\\DefaultBlazorServerApp\\FileData\\FileData.csproj": {
-              "projectPath": "C:\\Users\\Peter\\RiderProjects\\DefaultBlazorServerApp\\FileData\\FileData.csproj"
+            "C:\\Users\\Peter\\RiderProjects\\VeryBasicBlazorServerMessageBoard\\FileData\\FileData.csproj": {
+              "projectPath": "C:\\Users\\Peter\\RiderProjects\\VeryBasicBlazorServerMessageBoard\\FileData\\FileData.csproj"
             }
           }
         }

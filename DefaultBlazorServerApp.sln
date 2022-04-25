@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileData", "FileData\FileData.csproj", "{7F2C5650-6DE4-4C91-9108-84BB399035BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{57797804-55D7-4D5A-A5D0-4C4420CB6239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketClient", "SocketClient\SocketClient.csproj", "{5BB5C29A-9A58-4AF5-83A3-AC48270920B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{7F2C5650-6DE4-4C91-9108-84BB399035BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F2C5650-6DE4-4C91-9108-84BB399035BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F2C5650-6DE4-4C91-9108-84BB399035BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57797804-55D7-4D5A-A5D0-4C4420CB6239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57797804-55D7-4D5A-A5D0-4C4420CB6239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57797804-55D7-4D5A-A5D0-4C4420CB6239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57797804-55D7-4D5A-A5D0-4C4420CB6239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB5C29A-9A58-4AF5-83A3-AC48270920B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB5C29A-9A58-4AF5-83A3-AC48270920B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB5C29A-9A58-4AF5-83A3-AC48270920B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB5C29A-9A58-4AF5-83A3-AC48270920B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

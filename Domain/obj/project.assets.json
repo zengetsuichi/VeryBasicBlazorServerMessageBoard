@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Peter\\RiderProjects\\DefaultBlazorServerApp\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Peter\\RiderProjects\\VeryBasicBlazorServerMessageBoard\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\Peter\\RiderProjects\\DefaultBlazorServerApp\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Peter\\RiderProjects\\VeryBasicBlazorServerMessageBoard\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Peter\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Peter\\RiderProjects\\DefaultBlazorServerApp\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Peter\\RiderProjects\\VeryBasicBlazorServerMessageBoard\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Peter\\AppData\\Roaming\\NuGet\\NuGet.Config"

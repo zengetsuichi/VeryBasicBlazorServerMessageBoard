@@ -8,61 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Blazor
 build_property.RootNamespace = Blazor
-build_property.ProjectDir = C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\Blazor\
+build_property.ProjectDir = C:\Users\Peter\RiderProjects\VeryBasicBlazorServerMessageBoard\Blazor\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Peter\RiderProjects\DefaultBlazorServerApp\Blazor
+build_property.MSBuildProjectDirectory = C:\Users\Peter\RiderProjects\VeryBasicBlazorServerMessageBoard\Blazor
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/App.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Pages/Index.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Pages/Login.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Shared/SurveyPrompt.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/_Imports.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Pages/AddPost.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Pages/AddPost.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkUG9zdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-esv5akv5bs
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Pages/Posts.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Pages/Posts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zdHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-bmdo4kxhce
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Pages/Register.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Pages/Register.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-be1upc63yq
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Shared/MainLayout.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-r0yqwuvdyg
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Shared/NavMenu.razor]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-6hj6azdo60
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Pages/Error.cshtml]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Pages/_Host.cshtml]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Peter/RiderProjects/DefaultBlazorServerApp/Blazor/Pages/_Layout.cshtml]
+[C:/Users/Peter/RiderProjects/VeryBasicBlazorServerMessageBoard/Blazor/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
